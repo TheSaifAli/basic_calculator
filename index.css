@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btnStyle{
+    @apply bg-[#dee3ef] shadow-md text-[#25304a] py-1 font-semibold lg:py-2 lg:text-xl rounded-md active:bg-[#87a0c4] transition-all
+}
+.operationBtnStyle{
+    @apply bg-[#c7ccd8] shadow-md text-[#25304a] py-1 lg:py-2 font-semibold lg:text-xl rounded-md active:bg-[#dee3ef] active:text-[#25304a] transition-all
+}
